@@ -1,0 +1,204 @@
+/* Navbar start */
+.navbar {
+    color: red;
+}
+
+#navbarSupportedContent {
+
+    height: 30px;
+    justify-content: space-evenly;
+}
+
+.logo {
+    border: 2px solid transparent;
+    background-color: #fc9d22;
+    padding: 18px;
+    padding-left: 52px;
+    padding-right: 52px;
+    border-radius: 5px;
+}
+
+                            /* Header */
+.headercontant {
+    padding: 90px;
+    color: white;
+
+}
+
+.headercontant h1 {
+    font-family: "cormorant Upright, serif";
+}
+
+
+.headermain {
+    background-image: url(./images/banner-bg.png);
+}
+
+.Header {
+    display: flex;
+}
+
+@media (width:320px) {
+    .navbar {
+        height: 0px;
+        padding-bottom: 306px;
+        width: 189px;
+    }
+
+}
+                        /* About us */
+
+                        /* Cars Models */
+.models {
+    margin: auto;
+    height: auto;
+    max-width: 900px;
+    border: 5px solid transparent;
+    box-shadow: 0px 0px 40px rgb(201, 46, 46);
+}
+
+                        /* Achivement start */
+.Achive {
+    border: 2px solid transparent;
+    max-width: 100%;
+    padding: 50PX;
+    background-color: #fc9d22;
+    color: white;
+    font-weight: 900;
+    font-size: x-large;
+}
+
+                            /* featured vehicle */
+.price1 {
+    border: 10px solid transparent;
+    background-color: #fc9d22;
+    color: white;
+    width: 80%;
+    text-align: center;
+    transform: translate(25px, -25px);
+}
+
+.price1:hover {
+    background-color: white;
+    box-shadow: 0px 0px 40px white;
+    color: black;
+}
+
+.price2 {
+    border: 10px solid transparent;
+    background-color: white;
+    box-shadow: 0px 0px 40px white;
+    color: black;
+    width: 80%;
+    text-align: center;
+    transform: translate(25px, -25px);
+}
+
+.Read {
+    border: 2px solid transparent;
+    background-color: #fc9d22;
+    display: inline;
+    border-radius: 6px;
+    padding: 10px;
+}
+
+.Read a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: large;
+
+}
+
+.Read:hover {
+    background-color: rgb(66, 62, 62);
+}
+
+
+/*Second last  */
+.lastpic {
+    transform: translate(-190px, -50px);
+}
+
+.lastmain {
+    margin-top: 80px;
+    border: 2px solid transparent;
+    box-shadow: 0px 0px 8px #474545;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 90%;
+    height: 395px;
+}
+
+.lastdetail {
+    max-height: 50px;
+    max-width: 450px;
+    margin-top: 60px;
+    text-align: left;
+
+}
+
+.lastdetail p {
+    color: #6f6f6f;
+    font-weight: 500;
+    font-size: large;
+}
+
+@media (max-width:450px) {
+    .lastmain {
+        overflow: scroll;
+    }
+}
+
+                            /* footer start */
+.information {
+    background-color: #212529;
+    border: none;
+    border-bottom: 1px solid #6f6f6f;
+    width: 60%;
+
+}
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+span:hover {
+    color: #fc9d22;
+}
+
+.btn1 {
+    font-size: larger;
+    margin: 12px;
+    padding-right: 30px;
+    padding-left: 30px;
+    color: #fc9d22;
+    border: 5px solid #fc9d22;
+    border-radius: 0%;
+    background-color: transparent;
+}
+
+.btn1:hover {
+    color: white;
+    border: 5px solid white;
+}
+
+#icon {
+    color: black;
+    border-radius: 50%;
+    margin: 5px;
+    background-color: whitesmoke;
+
+}
+
+#icon:hover {
+    background-color: yellow;
+}
+
+@media (max-width:478px) {
+    .contact {
+        display: block;
+    }
+}
+                            /* footer end */
