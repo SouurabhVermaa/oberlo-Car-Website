@@ -1,11 +1,14 @@
 /* Navbar start */
 .navbar {
+    position: relative;
     color: red;
+    font-style: italic;
+    font-weight: bold;
+    font-size: large;
+    max-height: 40px;
 }
 
 #navbarSupportedContent {
-
-    height: 30px;
     justify-content: space-evenly;
 }
 
@@ -20,6 +23,8 @@
 
                             /* Header */
 .headercontant {
+    position: relative;
+    z-index: 1;
     padding: 90px;
     color: white;
 
@@ -37,14 +42,17 @@
 .Header {
     display: flex;
 }
-
-@media (width:320px) {
+@media (max-width: 768px) {
     .navbar {
-        height: 0px;
-        padding-bottom: 306px;
-        width: 189px;
+        max-height: 0%;
+        width: 90%;
     }
 
+    #nv {
+        background-color: white;
+        position: sticky;
+        top: 0;
+    }
 }
                         /* About us */
 
@@ -201,4 +209,5 @@ span:hover {
         display: block;
     }
 }
+
                             /* footer end */
